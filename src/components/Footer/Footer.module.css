@@ -6,3 +6,10 @@
   text-align: center;
 }
 
+.link {
+  color: white;
+}
+
+.link:visited {
+  color: hsl(0deg, 0%, 80%);
+}

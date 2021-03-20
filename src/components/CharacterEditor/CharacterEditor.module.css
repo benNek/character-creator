@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  
 }
 
 .header {
@@ -34,6 +35,22 @@
 
 .controlColumn {
   width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .controlColumn {
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+  }
+
+  .characterWrapper {
+    left: 0;
+    right: 0;
+    bottom: -200px;
+    z-index: -1;
+    height: 50vh;
+  }
 }
 
 .perspectiveBg {
